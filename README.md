@@ -164,6 +164,10 @@ user-select: none
 
 ## [gulp](https://gulpjs.com/)
 用自动化构建工具增强你的工作流程
+```
+// 启动服务
+gulp serve
+```
 
 ## [browser-sync](http://www.browsersync.cn/)
 省时的浏览器同步测试工具
