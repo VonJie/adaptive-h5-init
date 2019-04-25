@@ -95,6 +95,11 @@ date.replace(/-/g, '/');
 ```
 fastclick()
 ```
+- input 无法点击输入
+```
+// 去掉
+user-select: none
+```
 - css 整理
 ```
 * {
@@ -150,6 +155,12 @@ fastclick()
   }
 }
 ```
+
+## 微信JSAPI
+调用`微信jsapi`时，单页应用路由使用`browser`模式时，页面跳转权限会丢失，表现为IOS正常，安卓无权限使用api, 改用`hash`模式即可。
+参考: 
+- [hash和history两种模式的区别](https://www.jianshu.com/p/3fcae6a4968f)
+- [单页面应用微信分享跳坑指南](https://juejin.im/post/5b6073a2e51d4519873f7cd6)
 
 ## [gulp](https://gulpjs.com/)
 用自动化构建工具增强你的工作流程
